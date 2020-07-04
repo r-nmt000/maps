@@ -1,7 +1,3 @@
-new google.maps.Map(document.getElementById("map"), {
-    zoom: 1,
-    center: {
-        lat: 0,
-        lng: 0
-    }
-});
+import {CustomMap} from "./CustomMap";
+
+const map = new CustomMap("map");
